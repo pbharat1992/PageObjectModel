@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
+
+
+
+
+<!-- this is for executing important or suppose if we have 100 test cases in testng.xml.If there is no time our 
+manager told to execute the 50 or important testcases we have to write those testcases in sanity.xml and execute --> 
