@@ -9,7 +9,7 @@ import com.qa.base.TestBase;
 import com.qa.pages.ContactsPage;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
-
+//Hi this is contacts page test
 public class ContactsPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
